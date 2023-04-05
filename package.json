@@ -1,0 +1,24 @@
+{
+  "name": "crawl-tuyen-dung",
+  "version": "1.0.0",
+  "description": "crawl data use nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "crawl-data-btl"
+  },
+  "keywords": [
+    "crawl",
+    "nodejs",
+    "data"
+  ],
+  "author": "letrongphu142",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request-promise": "^4.2.6"
+  }
+}
