@@ -27,8 +27,8 @@ const crawlDataAllPage = async (url) => {
     }));
 }
 let fullData = [];
-const handelCall = async (index = 1) => {
-    if (index == 8) {
+const handelCall = async (index = 1, maxPage = 7) => {
+    if (index == maxPage) {
         fs.writeFileSync('data.json', JSON.stringify(fullData)); // lưu dữ liệu vào file data.json
     } else {
         //khai bao url page
