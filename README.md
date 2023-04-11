@@ -1,6 +1,10 @@
 # crawl-nodejs
 # Installation
-`npm install axios cheerio`
+```
+npm install axios cheerio
+```
 
 # Run
+```
 node server.js
+```
